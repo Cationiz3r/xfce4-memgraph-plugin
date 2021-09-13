@@ -1,0 +1,16 @@
+--------
+Forker's Note
+----
+Original code: https://archive.xfce.org/src/panel-plugins/xfce4-cpugraph-plugin/1.2/xfce4-cpugraph-plugin-1.2.3.tar.bz2
+I downloaded the archive, did some trials and errors until it works.
+
+This currently only works on Linux. I copied code and modified some parts
+from xfce4-systemload-plugin into this. Note that this is very unoptimized
+as I only modified the read cpu usage into reading memory usage.
+
+The plugin icon is from Vimix-Dark.
+--------
+To do
+----
+Remove Stats menu from UI
+Make an PKGBUILD for AUR

@@ -1,0 +1,7 @@
+panel-plugin/mem.c
+panel-plugin/mode.c
+panel-plugin/os.c
+panel-plugin/properties.c
+panel-plugin/settings.c
+panel-plugin/memgraph.desktop.in
+

@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Źmicier Turok <nashtlumach@gmail.com>, 2018-2020
+# Źmicier Turok <nashtlumach@gmail.com>, 2018
+# Zmicer Turok <zmicerturok@gmail.com >, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce Panel Plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-13 00:48+0100\n"
+"PO-Revision-Date: 2021-01-12 23:48+0000\n"
+"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"Language-Team: Belarusian (http://www.transifex.com/xfce/xfce-panel-plugins/language/be/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../panel-plugin/mem.c:155 ../panel-plugin/memgraph.desktop.in.h:2
+msgid "Graphical representation of the MEM load"
+msgstr "Графічнае адлюстраванне нагрузкі на ЦП"
+
+#: ../panel-plugin/mem.c:157
+msgid "Copyright (c) 2003-2021\n"
+msgstr ""
+
+#: ../panel-plugin/mem.c:567
+#, c-format
+msgid "Usage: %u%%"
+msgstr "Выкарыстанне: %u%%"
+
+#: ../panel-plugin/properties.c:159
+msgid "MEM Graph Properties"
+msgstr "Уласцівасці MEM Graph"
+
+#: ../panel-plugin/properties.c:181
+msgid "Use non-linear time-scale"
+msgstr "Нелінейная шкала часу"
+
+#: ../panel-plugin/properties.c:185
+msgid "Run in terminal"
+msgstr "Запускаць у тэрмінале"
+
+#: ../panel-plugin/properties.c:187
+msgid "Use startup notification"
+msgstr "Выводзіць апавяшчэнне падчас запуску"
+
+#: ../panel-plugin/properties.c:190
+msgid ""
+"Color used to highlight potentially suboptimal\n"
+"placement of threads on MEMs with SMT"
+msgstr "Колер, які выкарыстоўваецца для падсвятлення неаптымальнага размяшчэння струменяў працэсараў з адначасовай шматструменевасцю (SMT)"
+
+#: ../panel-plugin/properties.c:192
+msgid ""
+"'Overall' is showing the impact on the overall performance of the machine."
+msgstr "Значэнне \"Агулам\" паказвае ўплыў на агульную прадукцыйнасць машыны."
+
+#: ../panel-plugin/properties.c:193
+msgid ""
+"'Hotspots' is showing the momentary performance impact on just the threads "
+"involved in suboptimal SMT scheduling decisions."
+msgstr "Значэнне \"Па пунктах\" паказвае імгненны ўплыў на прадукцыйнасць струменяў, якія ўдзельнічаюць у неаптымальных рашэннях планавання адначасовай шматструменевасці (SMT)."
+
+#: ../panel-plugin/properties.c:196
+msgid "Highlight suboptimal SMT scheduling"
+msgstr "Падсвятленне неаптымальнага планавання адначасовай шматструменевасці (SMT)"
+
+#: ../panel-plugin/properties.c:198
+msgid "SMT issues color:"
+msgstr "Колер праблем:"
+
+#: ../panel-plugin/properties.c:201
+msgid "Color 1:"
+msgstr "Колер 1:"
+
+#: ../panel-plugin/properties.c:202
+msgid "Color 2:"
+msgstr "Колер 2:"
+
+#: ../panel-plugin/properties.c:203
+msgid "Color 3:"
+msgstr "Колер 3:"
+
+#: ../panel-plugin/properties.c:204
+msgid "Background:"
+msgstr "Фон:"
+
+#: ../panel-plugin/properties.c:208
+msgid "Show current usage bar"
+msgid_plural "Show current usage bars"
+msgstr[0] "Паказваць бягучы радок"
+msgstr[1] "Паказваць бягучыя радкі"
+msgstr[2] "Паказваць бягучыя радкі"
+msgstr[3] "Паказваць бягучыя радкі"
+
+#: ../panel-plugin/properties.c:210
+msgid "Bars color:"
+msgstr "Колеры радкоў:"
+
+#: ../panel-plugin/properties.c:212
+msgid "Show frame"
+msgstr "Паказваць рамку"
+
+#: ../panel-plugin/properties.c:213
+msgid "Show border"
+msgstr "Паказваць межы"
+
+#: ../panel-plugin/properties.c:221
+msgid "Appearance"
+msgstr "Выгляд"
+
+#: ../panel-plugin/properties.c:223
+msgid "Advanced"
+msgstr "Дадаткова"
+
+#: ../panel-plugin/properties.c:225
+msgid "Stats"
+msgstr "Статыстыка"
+
+#: ../panel-plugin/properties.c:346
+msgid "Fastest (~250ms)"
+msgstr "Найхутчэйшы (~250 мс)"
+
+#: ../panel-plugin/properties.c:347
+msgid "Fast (~500ms)"
+msgstr "Хуткі (~500 мс)"
+
+#: ../panel-plugin/properties.c:348
+msgid "Normal (~750ms)"
+msgstr "Звычайны (~750 мс)"
+
+#: ../panel-plugin/properties.c:349
+msgid "Slow (~1s)"
+msgstr "Павольны (~1 с)"
+
+#: ../panel-plugin/properties.c:350
+msgid "Slowest (~3s)"
+msgstr "Найбольш павольны (~3с)"
+
+#: ../panel-plugin/properties.c:354
+msgid "Update Interval:"
+msgstr "Інтэрвал абнаўлення:"
+
+#: ../panel-plugin/properties.c:365
+msgid "All"
+msgstr "Усе"
+
+#: ../panel-plugin/properties.c:369
+msgid "Tracked Core:"
+msgstr "Ядро:"
+
+#: ../panel-plugin/properties.c:383
+msgid "Width:"
+msgstr "Шырыня:"
+
+#: ../panel-plugin/properties.c:385
+msgid "Height:"
+msgstr "Вышыня:"
+
+#: ../panel-plugin/properties.c:399
+msgid "Threshold (%):"
+msgstr "Парог (%):"
+
+#: ../panel-plugin/properties.c:412
+msgid "Associated command:"
+msgstr "Звязаны загад:"
+
+#: ../panel-plugin/properties.c:421
+msgid "Defaults to xfce4-taskmanager, htop or top."
+msgstr "Прадвызначана xfce4-taskmanager, htop ці top."
+
+#: ../panel-plugin/properties.c:443
+msgid "Disabled"
+msgstr "Выключана"
+
+#: ../panel-plugin/properties.c:444
+msgid "Normal"
+msgstr "Звычайны"
+
+#: ../panel-plugin/properties.c:445
+msgid "LED"
+msgstr "LED"
+
+#: ../panel-plugin/properties.c:446
+msgid "No history"
+msgstr "Без гісторыі"
+
+#: ../panel-plugin/properties.c:447
+msgid "Grid"
+msgstr "Сетка"
+
+#: ../panel-plugin/properties.c:473
+msgid "Mode:"
+msgstr "Рэжым:"
+
+#: ../panel-plugin/properties.c:479
+msgid "Solid"
+msgstr "Суцэльны"
+
+#: ../panel-plugin/properties.c:480
+msgid "Gradient"
+msgstr "Градыент"
+
+#: ../panel-plugin/properties.c:481
+msgid "Fire"
+msgstr "Полымя"
+
+#: ../panel-plugin/properties.c:485
+msgid "Color mode: "
+msgstr "Рэжым колераў: "
+
+#: ../panel-plugin/properties.c:679
+msgid "SMT detected: Yes"
+msgstr "Падтрымка SMT: так"
+
+#: ../panel-plugin/properties.c:679
+msgid "SMT detected: No"
+msgstr "Падтрымка SMT: не"
+
+#: ../panel-plugin/properties.c:704
+#, c-format
+msgid "Number of SMT scheduling incidents: %u"
+msgstr "Колькасць падзей планавання шматструменевасці: %u"
+
+#: ../panel-plugin/properties.c:713
+#, c-format
+msgid "Estimated performance impact:"
+msgstr "Падлічаны ўплыў на прадукцыйнасць:"
+
+#: ../panel-plugin/properties.c:714
+#, c-format
+msgid "Overall: %.3g%%"
+msgstr "Агулам: %.3g%%"
+
+#: ../panel-plugin/properties.c:715
+#, c-format
+msgid "Hotspots: %.3g%%"
+msgstr "Па пунктах: %.3g%%"
+
+#: ../panel-plugin/properties.c:728
+msgid "SMT detected: N/A"
+msgstr "Падтрымка SMT: не вызначана"
+
+#: ../panel-plugin/memgraph.desktop.in.h:1
+msgid "MEM Graph"
+msgstr "Графікі ЦП"
