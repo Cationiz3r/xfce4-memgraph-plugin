@@ -9,8 +9,9 @@ from xfce4-systemload-plugin into this. Note that this is very unoptimized
 as I only modified the read cpu usage into reading memory usage.
 
 The plugin icon is from Vimix-Dark.
+
+An AUR is not available: https://aur.archlinux.org/packages/xfce4-memgraph-plugin/
 --------
 To do
 ----
 Remove Stats menu from UI
-Make an PKGBUILD for AUR
